@@ -1,11 +1,11 @@
 const Main = () => {
-    return ( 
+    return (
         <section class="home section" id="home">
         <div class="home-container container grid">
           <div class="home-content grid">
             <div class="home-social">
-             <a
-                href="https://www.linkedin.com/in/AbumattarSA"
+            <a
+                href="https://www.linkedin.com/in/mike-r-0b9a47229/"
                 target="_blank"
                 rel="noreferrer"
                 class="social-icon"
@@ -17,9 +17,9 @@ const Main = () => {
                 target="_blank"
                 rel="noreferrer"
                 class="social-icon"
-              > 
+              >
                 <i class="uil uil-github-alt"></i>
-              </a> 
+              </a>
             </div>
             <div class="home-data">
               <h1 class="home-title">Amin Riyad</h1>
@@ -31,8 +31,6 @@ const Main = () => {
           </div>
         </div>
       </section>
-
-     );
+);
 }
- 
 export default Main;

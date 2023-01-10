@@ -1,4 +1,6 @@
 const Footer = () => {
+  const d = new Date();
+const year = d.getFullYear()
     return (
         <footer class="footer">
     <div class="footer-bg">
@@ -17,7 +19,7 @@ const Footer = () => {
           </ul>
           <div class="footer-socials">
             <a
-              href="https://www.linkedin.com/in/AbumattarSA"
+              href="https://www.linkedin.com/in/mike-r-0b9a47229/"
               rel="noreferrer"
               target="_blank"
               class="footer-social"
@@ -25,7 +27,7 @@ const Footer = () => {
               <i class="uil uil-linkedin-alt"></i>
             </a>
             <a
-              href="https://github.com/AbumattarSA"
+              href="https://github.com/Aminriyad"
               rel="noreferrer"
               target="_blank"
               class="footer-social"
@@ -35,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <p class="footer-copyright">
-          &#169; Amin Riyad 2022. All rights reserved.
+          &#169; Amin Riyad {year}. All rights reserved.
         </p>
       </div>
     </footer>
