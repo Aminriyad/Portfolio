@@ -2,28 +2,16 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Main from "./main";
 import Projects from "./Project";
-import smoothscroll from 'smoothscroll-polyfill';
-import Contact from "./contact";
-import SwiperCore, { Controller } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { useState } from "react";
-import { createContext } from "react";
+import Contact from "./Contact";
 
 
 const App = () => {
-  smoothscroll.polyfill();
-  const [controlledSwiper, setControlledSwiper] = useState(null);
-  const ThemeContext = createContext(null)
-  const [Theme, setTheme]=useState("light")
-  const toggleTheme = () =>{
-    setTheme((curr)=>(curr ==="light"? "dark" :"light"))
-  };
+
     return (
-<ThemeContext.Provider value={{Theme,toggleTheme}}>
-  <div class={"dark-theme"} id={Theme}>
+  <div className={"dark-theme"}>
     {/* <!--Navigation menu --> */}
     <Header/>
-    <main class={"main"}>
+    <main className={"main"}>
     <Main/>
     <Projects/>
     <Contact/>
@@ -33,7 +21,7 @@ const App = () => {
     {/* <a href="/#" class="scroll-to-top" id="scroll-up">
       <i class="uil uil-arrow-up scroll-to-top-icon"></i>
     </a> */}
-</div></ThemeContext.Provider>
+</div>
 );
 }
 export default App;

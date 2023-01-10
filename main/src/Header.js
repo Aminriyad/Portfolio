@@ -1,39 +1,39 @@
 const Header = () => {
     return (
-        <header class="header" id="header">
-        <nav class="nav container">
+        <header className={"header"} id="header">
+        <nav className={"nav container"}>
 
 
         {/* Top left logo */}
-          <a href="/#" class="nav-logo">Amin Riyad</a>
+          <a href="/#" className={"nav-logo"}>Amin Riyad</a>
         {/* Top left logo */}
 
 
         {/* Nvaigation Bar */}
-          <div class="nav-menu" id="nav-menu">
-            <ul class="nav-list grid">
+          <div className={"nav-menu" }id="nav-menu">
+            <ul className={"nav-list grid"}>
               {/* Home */}
-              <li class="nav-item">
-                <a href="#home" class="nav-link active-link">
-                  <i class="uil uil-estate nav-icon"></i>Home
+              <li className={"nav-item"}>
+                <a href="#home" className={"nav-link active-link"}>
+                  <i className={"uil uil-estate nav-icon"}></i>Home
                 </a>
               </li>
               {/* Home */}
             {/* Portfolio */}
-              <li class="nav-item">
-                <a href="#portfolio" class="nav-link">
-                  <i class="uil uil-scenery nav-icon"></i> Portfolio
+              <li className={"nav-item"}>
+                <a href="#portfolio" className={"nav-link"}>
+                  <i className={"uil uil-scenery nav-icon"}></i> Portfolio
                 </a>
               </li>
               {/* Portfolio */}
               {/* Contact */}
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">
-                  <i class="uil uil-message nav-icon"></i> Contact
+              <li className={"nav-item"}>
+                <a href="#contact" className={"nav-link"}>
+                  <i className={"uil uil-message nav-icon"}></i> Contact
                 </a>
               </li>
             </ul>
-            <i class="uil uil-times nav-close" id="nav-close"></i>
+            <i className={"uil uil-times nav-close"} id="nav-close"></i>
           </div>
               {/* Contact */}
 
@@ -41,10 +41,10 @@ const Header = () => {
 
 
           {/* Theme Changer */}
-          <div class="nav-buttons">
-            <i class="uil uil-moon change-theme uil-sun" id="theme-button"></i>
-            <div class="nav-toggle" id="nav-toggle">
-              <i class="uil uil-apps"></i>
+          <div className={"nav-buttons"}>
+            <i className={"uil uil-moon change-theme uil-sun"} id="theme-button"></i>
+            <div className={"nav-toggle" }id="nav-toggle">
+              <i className={"uil uil-apps"}></i>
             </div>
           </div>
             {/* Theme Changer */}
