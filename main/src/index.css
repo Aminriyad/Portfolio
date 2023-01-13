@@ -96,9 +96,9 @@ body.dark-theme {
   margin: 0;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 body {
   margin: 0 0 var(--header-height) 0;
@@ -596,6 +596,9 @@ input[type="reset"] {
 /* Medium sized devices */
 
 @media screen and (min-width: 568px) {
+  .project-img {
+    max-width:"320px",
+  }
   .home-content {
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -819,4 +822,3 @@ input[type="reset"] {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
