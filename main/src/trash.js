@@ -1,17 +1,21 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+
 const Contact = () => {
-  const [state, handleSubmit] = useForm("xzbqbjeo");
+
   const center = {
     marign: '0 auto',
     display: 'flex',
     justifyContent: 'center',
     padding: '150px 0'
   }
+  const [state, handleSubmit] = useForm("xzbqbjeo");
   if (state.succeeded) {
-      return <p style={center}>Thanks Mate!</p>;
+      return <p style={center}>Thanks for joining!</p>;
   }
-  return (
+
+
+    return (
     <section className={"contact section" } >
     <h2 className={"section-title"}>Contact</h2>
     <div className={"contact-container container grid"}>
@@ -66,7 +70,7 @@ const Contact = () => {
         </div>
       </form>
 </div>
-</section> 
-  );
+</section> );
 }
-export default Contact
+
+export default Contact;

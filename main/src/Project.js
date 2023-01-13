@@ -1,9 +1,5 @@
-import Pic1 from "./img/blog.png";
-import Pic2 from "./img/devmatch.png";
-import Pic4 from "./img/interphase.png";
-import Pic6 from "./img/recipedia.png";
-import Pic7 from "./img/rush.png";
-
+import Pic  from "./Black.png"
+//    dont forget to add this margin-bottom: 3rem;
 // import SwiperCore, {
 //   Pagination,
 //   Navigation
@@ -35,7 +31,7 @@ const Projects = () => {
 <SwiperSlide>
     <div className={"swiper-wrapper"}>
         <div className={"portfolio-content grid swiper-slide"}>
-          <img className={"project-img"}src={Pic6} alt=""/>
+          <img className={"portfolio-img"}src={Pic} alt=""/>
 
           <div className={"portfolio-data"}>
             <h3 className={"portfolio-title"}>Recipedia</h3>
@@ -71,7 +67,7 @@ const Projects = () => {
 {/* DevMatch */}
 <SwiperSlide>
     <div className={"portfolio-content grid swiper-slide"}>
-          <img src={Pic2} alt="" className={"project-img"} />
+          <img src={Pic} alt="" className={"portfolio-img"} />
 
           <div className={"portfolio-data"}>
             <h3 className={"portfolio-title"}>DevMatch</h3>
@@ -103,7 +99,7 @@ const Projects = () => {
 {/* Blog */}
 <SwiperSlide>
     <div className={"portfolio-content grid swiper-slide"}>
-          <img src={Pic1} alt="" className={"project-img" }/>
+          <img src={Pic} alt="" className={"portfolio-img" }/>
 
           <div className={"portfolio-data"}>
             <h3 className={"portfolio-title"}>Blog</h3>
@@ -135,7 +131,7 @@ const Projects = () => {
 {/* Rush */}
 <SwiperSlide>
     <div className={"portfolio-content grid swiper-slide"}>
-          <img src={Pic7} alt="" className={"project-img" }/>
+          <img src={Pic} alt="" className={"portfolio-img" }/>
           
           {/* Rush */}
           <div className={"portfolio-data"}> 
@@ -161,9 +157,9 @@ const Projects = () => {
 <SwiperSlide>
     <div className={"portfolio-content grid swiper-slide"}>
           <img
-            src={Pic4}
+            src={Pic}
             alt=""
-            className={"project-img"}
+            className={"portfolio-img"}
           />
 
           <div className={"portfolio-data"}>
