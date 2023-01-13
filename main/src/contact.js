@@ -44,7 +44,7 @@ const Contact = () => {
         <div className={"contact-inputs grid"}>
           <div className={"contact-content"}>
             <label className={"contact-label"}>Name</label>
-            <input type="text" className={"contact-input" }/>
+            <input type="text" className={"contact-input" }/>{/* maybe add a name attribute as Name="text" */}
           </div>
           <div className={"contact-content"}>
             <label htmlfor="email" className={"contact-label"}>Email</label>
