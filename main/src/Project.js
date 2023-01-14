@@ -18,9 +18,10 @@ SwiperCore.use([Pagination]);
 
 const Projects = () => {
     return (
-<div>
+<div >
+<h2 class="section-title">Projects</h2>
     <Swiper
-        style={{width:"768px"}}
+        className={Swiper}
         effect="flip"
         loop="true"
         navigation

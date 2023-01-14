@@ -24,7 +24,11 @@ code {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /* Variables */
-
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{color:black} /* after */
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{color:black} /* before */
+.swiper-wrapper{
+  margin-bottom: 3rem;
+}
 :root {
   --header-height: 3rem;
   --hue-color: 240;
@@ -193,6 +197,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .Swiper{width:100%; display :flex; justify-content:center}
   .nav-menu {
     position: fixed;
     bottom: -100%;
@@ -790,6 +795,7 @@ input[type="reset"] {
 }
 
 @media screen and (min-width: 1024px) {
+  .swiper{max-width: 751px;}
   .header,
   .main,
   .footer-container {
