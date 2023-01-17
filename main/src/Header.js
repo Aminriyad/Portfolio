@@ -42,10 +42,10 @@ const Header = () => {
 
           {/* Theme Changer */}
           <div className={"nav-buttons"}>
-            <i className={"uil uil-moon change-theme uil-sun"} id="theme-button"></i>
-            <div className={"nav-toggle" }id="nav-toggle">
+            {/* <i className={"uil uil-moon change-theme uil-sun"} id="theme-button"></i> */}
+            {/* <div className={"nav-toggle" }id="nav-toggle">
               <i className={"uil uil-apps"}></i>
-            </div>
+            </div> */}
           </div>
             {/* Theme Changer */}
         </nav>
