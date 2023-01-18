@@ -18,7 +18,12 @@ SwiperCore.use([Pagination]);
 
 const Projects = () => {
     return (
-<div >
+      <section id={"projects"}>
+        <br />
+        <br />
+        <br />
+        <br />
+<div>
 <h2 class="section-title">Projects</h2>
     <Swiper
         className={Swiper}
@@ -196,6 +201,7 @@ const Projects = () => {
 
 </Swiper>
 </div>
+</section>
 );
 }
 

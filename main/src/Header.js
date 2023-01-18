@@ -1,3 +1,4 @@
+
 const Header = () => {
     return (
         <header className={"header"} id="header">
@@ -28,7 +29,7 @@ const Header = () => {
               {/* Portfolio */}
               {/* Contact */}
               <li className={"nav-item"}>
-                <a href="#contact" className={"nav-link"}>
+                <a href="#Contact" className={"nav-link"}>
                   <i className={"uil uil-message nav-icon"}></i> Contact
                 </a>
               </li>
@@ -52,5 +53,5 @@ const Header = () => {
     </header>
     );
 }
- 
+
 export default Header;

@@ -9,7 +9,7 @@ const Contact = () => {
       return (<p style={center}>Thanks Mate!</p>)
   }
   return (
-    <section className={"contact section" } >
+    <section className={"contact section" } id={"Contact"}>
     <h2 className={"section-title"}>Contact</h2>
     <div className={"contact-container container grid"}>
       <div>
