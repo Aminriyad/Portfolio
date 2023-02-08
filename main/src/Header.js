@@ -4,7 +4,7 @@ const Header = () => {
   const [Moon, setMoon]= useState(true);
   const sun = document.getElementById('theme-button1');
   const moon = document.getElementById('theme-button2');
-  const footer = document.getElementsByClassName("footer")
+  // const footer = document.getElementsByClassName("footer")
   // const header = document.getElementById('header')
   // const name = document.getElementById('home-title')
   // const whiter = document.querySelectorAll('#whiter')
@@ -38,7 +38,7 @@ const Header = () => {
 
 
         {/* Nvaigation Bar */}
-          <div className={"nav-menu" }id="nav-menu">
+          <div className={"nav-menu" } id="nav-menu">
             <ul className={"nav-list grid"}>
               {/* Home */}
               <li className={"nav-item"}>
