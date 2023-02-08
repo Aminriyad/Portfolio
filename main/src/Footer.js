@@ -1,3 +1,5 @@
+import { Icon } from '@iconify/react';
+
 const Footer = () => {
 const year =new Date().getFullYear()
 return (
@@ -10,10 +12,10 @@ return (
         </div>
         <ul className={"footer-links"}>
             <li>
-            <a href="#portfolio" className={"footer-link"}>Portfolio</a>
+            <a href="#Projects" className={"footer-link"}>Portfolio</a>
             </li>
             <li>
-              <a href="#contact" className={"footer-link"}>Contact</a>
+              <a href="#Contact" className={"footer-link"}>Contact</a>
             </li>
           </ul>
           <div className={"footer-socials"}>
@@ -23,7 +25,7 @@ return (
               target="_blank"
               className={"footer-social"}
             >
-              <i className={"uil uil-linkedin-alt"}></i>
+              <Icon icon="uil:linkedin-alt" color="white" />
             </a>
             <a
               href="https://github.com/Aminriyad"
@@ -31,7 +33,7 @@ return (
               target="_blank"
               className={"footer-social"}
             >
-              <i className={"uil uil-github-alt"}></i>
+              <Icon icon="uil:github-alt" color="white" />
             </a>
           </div>
         </div>

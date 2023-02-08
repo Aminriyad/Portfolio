@@ -1,3 +1,4 @@
+import { Icon } from '@iconify/react';
 const Main = () => {
     return (
         <section className={"home section" }id="home">
@@ -10,7 +11,7 @@ const Main = () => {
                 rel="noreferrer"
                 className={"social-icon"}
               >
-                <i className={"uil uil-linkedin-alt"}></i>
+              <Icon icon="uil:linkedin-alt" color="#5757e0" />
               </a>
               <a
                 href="https://github.com/Aminriyad"
@@ -18,13 +19,13 @@ const Main = () => {
                 rel="noreferrer"
                 className={"social-icon"}
               >
-                <i className={"uil uil-github-alt"}></i>
+                <Icon icon="uil:github-alt" color="#5757e0" />
               </a>
             </div>
             <div className={"home-data"}>
               <h1 className={"home-title"}>Amin Riyad</h1>
               <h3 className={"home-subtitle"}>Software Engineer | CS Student</h3>
-              <a href="#contact" className={"button flex-button"}>
+              <a href="#Contact" className={"button flex-button"}>
                 Contact me<i className={"uil uil-message icon-button"}></i>
               </a>
             </div>

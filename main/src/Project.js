@@ -18,7 +18,7 @@ SwiperCore.use([Pagination]);
 
 const Projects = () => {
     return (
-      <section id={"projects"}>
+      <section id={"Projects"}>
         <br />
         <br />
         <br />
