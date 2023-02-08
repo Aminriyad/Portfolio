@@ -13,6 +13,7 @@ const Header = () => {
       moon.style.visibility="visible";
       sun.style.visibility="hidden";
       document.body.style.backgroundColor="rgb(22,22,39)";
+      document.body.style.transition="0.3s";
       // footer.style.backgroundColor="#0E0E1B"
       // whiter.style.Color = "Black";
     setMoon(false);}
@@ -20,6 +21,8 @@ const Header = () => {
       sun.style.visibility="visible";
       moon.style.visibility="hidden";
       document.body.style.backgroundColor="#FBFBFE";
+      document.body.style.transition="0.3s";
+
       // footer.style.backgroundColor="#5757E0"
 
       // whiter.style.Color = "#FBFBFE";
