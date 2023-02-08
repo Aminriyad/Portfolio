@@ -24,7 +24,7 @@ const Projects = () => {
         <br />
         <br />
 <div>
-<h2 class="section-title">Projects</h2>
+<h2 className={"section-title"}>Projects</h2>
     <Swiper
         className={Swiper}
         effect="flip"
