@@ -1,33 +1,32 @@
 import { Icon } from '@iconify/react';
 import { useState } from 'react';
 const Header = () => {
-  const [Moon, setMoon]= useState(true);
+  const [Mooon, setMoon]= useState(true);
   const sun = document.getElementById('theme-button1');
   const moon = document.getElementById('theme-button2');
   // const footer = document.getElementsByClassName("footer")
   // const header = document.getElementById('header')
   // const name = document.getElementById('home-title')
-  // const whiter = document.querySelectorAll('#whiter')
+  const whiter = document.querySelectorAll('#whiter')
     const aminer = ()=> {
-      if(Moon === true){//when we want moon,we dont have it, cuz we're on sun
+      if(Mooon === true){//when we want moon,we dont have it, cuz we're on sun
+      setMoon(false);
       moon.style.visibility="visible";
       sun.style.visibility="hidden";
       document.body.style.backgroundColor="rgb(22,22,39)";
       document.body.style.transition="0.3s";
+      // document.getElementsByClassName("section-title").style.Color="White";
       // footer.style.backgroundColor="#0E0E1B"
-      // whiter.style.Color = "Black";
-    setMoon(false);}
+      whiter.style.Color = "#FBFBFE";
+    }
     else{//when we want sun
+      setMoon(true)
       sun.style.visibility="visible";
       moon.style.visibility="hidden";
       document.body.style.backgroundColor="#FBFBFE";
       document.body.style.transition="0.3s";
-
-      // footer.style.backgroundColor="#5757E0"
-
-      // whiter.style.Color = "#FBFBFE";
-
-      setMoon(true)}
+      whiter.style.Color = "#FBFBFE";
+    }
     }
 
     return (
