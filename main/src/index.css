@@ -22,10 +22,13 @@ code {
 }
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
+.nav-buttons svg{color: rgb(87, 87, 224);
+  width: 20px;
+  height: 20px;}
 /* Variables */
-.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{color:black} /* after */
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{color:black} /* before */
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{color:#5757E0} /* after */
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{color:#5757E0} /* before */
+.swiper-button-next:after .swiper-button-prev:after{color:#5757E0}
 .swiper-wrapper{
   margin-bottom: 3rem;
 }

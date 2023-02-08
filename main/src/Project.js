@@ -24,7 +24,7 @@ const Projects = () => {
         <br />
         <br />
 <div>
-<h2 className={"section-title"}>Projects</h2>
+<h2 className={"section-title"} id="whiter">Projects</h2>
     <Swiper
         className={Swiper}
         effect="flip"
@@ -40,7 +40,7 @@ const Projects = () => {
           <img className={"portfolio-img"}src={Pic} alt=""/>
 
           <div className={"portfolio-data"}>
-            <h3 className={"portfolio-title"}>Recipedia</h3>
+            <h3 className={"portfolio-title"} id="whiter">Recipedia</h3>
             <h3 className={"portfolio-subtitle"}>
               Tech used: React, Express, Node, Axios, MySQL, Spoonacular
               API, Google sign-in

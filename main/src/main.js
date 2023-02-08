@@ -23,10 +23,10 @@ const Main = () => {
               </a>
             </div>
             <div className={"home-data"}>
-              <h1 className={"home-title"}>Amin Riyad</h1>
+              <h1 className={"home-title"} id="whiter">Amin Riyad</h1>
               <h3 className={"home-subtitle"}>Software Engineer | CS Student</h3>
               <a href="#Contact" className={"button flex-button"}>
-                Contact me<i className={"uil uil-message icon-button"}></i>
+                Contact me <Icon icon="uil:message" className={"icon-button"}/>
               </a>
             </div>
           </div>
