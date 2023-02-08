@@ -14,4 +14,4 @@ root.render(
 //npm i react-horizontal-scrolling-menu
 //npm install tailwind-scrollbar-hide
 //by <div class="w-4 scrollbar-hide md:scrollbar-default">...</div>
-
+//npm i swiper
