@@ -1,7 +1,6 @@
 const Footer = () => {
-  const d = new Date();
-const year = d.getFullYear()
-    return (
+const year =new Date().getFullYear()
+return (
         <footer className={"footer"}>
     <div className={"footer-bg"}>
         <div className={"footer-container container grid"}>
