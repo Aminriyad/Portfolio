@@ -2,5 +2,8 @@
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "swiper": "^9.0.3"
+  },
+  "devDependencies": {
+    "@iconify/react": "^4.1.0"
   }
 }
