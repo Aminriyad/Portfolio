@@ -43,10 +43,10 @@ const Projects = () => {
           <div className={"portfolio-data"}>
             <h3 className={"portfolio-title"} id="whiter">Home Budgeting Application</h3>
             <h3 className={"portfolio-subtitle"}>
-              Tech used : React, Local Storage
+              Tech used : React, TypeScript, Local Storage
             </h3>
             <p className={"portfolio-description"}>
-              A revolutionary recipe recommendation website which tailors to
+              A revolutionary Home budgeting app for everyone to achive financial freedom which tailors to
               your expectations.
             </p>
             <a
