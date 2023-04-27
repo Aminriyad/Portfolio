@@ -1,4 +1,5 @@
 import Pic  from "./Black.png"
+import HBA from "./img/HBA.png"
 //    dont forget to add this margin-bottom: 3rem;
 // import SwiperCore, {
 //   Pagination,
@@ -37,13 +38,12 @@ const Projects = () => {
 <SwiperSlide>
     <div className={"swiper-wrapper"}>
         <div className={"portfolio-content grid swiper-slide"}>
-          <img className={"portfolio-img"}src={Pic} alt=""/>
+          <img className={"portfolio-img"}src={HBA} alt=""/>
 
           <div className={"portfolio-data"}>
-            <h3 className={"portfolio-title"} id="whiter">Recipedia</h3>
+            <h3 className={"portfolio-title"} id="whiter">Home Budgeting Application</h3>
             <h3 className={"portfolio-subtitle"}>
-              Tech used: React, Express, Node, Axios, MySQL, Spoonacular
-              API, Google sign-in
+              Tech used : React, Local Storage
             </h3>
             <p className={"portfolio-description"}>
               A revolutionary recipe recommendation website which tailors to
@@ -51,7 +51,7 @@ const Projects = () => {
             </p>
             <a
               target="_blank" rel="noreferrer"
-              href="https://w8-recipedia.netlify.app/"
+              href="https://github.com/Aminriyad/Mr.Budget"
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
@@ -60,7 +60,7 @@ const Projects = () => {
             <a
             rel="noreferrer"
               target="_blank"
-              href="https://github.com/W8-Recipedia/Recipedia"
+              href="https://github.com/Aminriyad/Mr.Budget"
               className={"button flex-button button-small portfolio-button"}
             >
               Code
@@ -76,7 +76,7 @@ const Projects = () => {
           <img src={Pic} alt="" className={"portfolio-img"} />
 
           <div className={"portfolio-data"}>
-            <h3 className={"portfolio-title"}>DevMatch</h3>
+            <h3 className={"portfolio-title"}>Budgeting Application</h3>
             <h3 className={"portfolio-subtitle"}>
               Tech used: Ruby on Rails, PostgreSQL, Stripe, jQuery, MailGun
             </h3>
