@@ -1,5 +1,7 @@
 import Pic  from "./Black.png"
 import HBA from "./img/HBA.png"
+import chat from "./img/chat.png"
+
 //    dont forget to add this margin-bottom: 3rem;
 // import SwiperCore, {
 //   Pagination,
@@ -37,17 +39,17 @@ const Projects = () => {
 {/* Recipedia */}
 <SwiperSlide>
     <div className={"swiper-wrapper"}>
-        <div className={"portfolio-content grid swiper-slide"}>
+        <div className={"portfolio-content grid swiper-slide"} >
+          <img className={"portfolio-img"}src={HBA} alt=""/>
           <img className={"portfolio-img"}src={HBA} alt=""/>
 
           <div className={"portfolio-data"}>
             <h3 className={"portfolio-title"} id="whiter">Home Budgeting Application</h3>
             <h3 className={"portfolio-subtitle"}>
-              Tech used : React, TypeScript, Local Storage
+              Tech used : React, JavaScript, TypeScript, Local Storage
             </h3>
             <p className={"portfolio-description"}>
-              A revolutionary Home budgeting app for everyone to achive financial freedom which tailors to
-              your expectations.
+              A user friendly Home budgeting app for everyone to achive financial freedom, stores all your data locally so you have acess to it at anytime, and delete it at anytime, it's safe, simple, and easy to use for everyone.
             </p>
             <a
               target="_blank" rel="noreferrer"
@@ -72,17 +74,16 @@ const Projects = () => {
           </div></SwiperSlide>
 {/* DevMatch */}
 <SwiperSlide>
-    <div className={"portfolio-content grid swiper-slide"}>
-          <img src={Pic} alt="" className={"portfolio-img"} />
+    <div className={"portfolio-content grid swiper-slide"} >
+          <img src={chat} alt="" className={"portfolio-img"} style={{height:"13rem",width:"35rem"}}/>
 
           <div className={"portfolio-data"}>
-            <h3 className={"portfolio-title"}>Budgeting Application</h3>
+            <h3 className={"portfolio-title"}>Full-Stack Messaging App</h3>
             <h3 className={"portfolio-subtitle"}>
-              Tech used: Ruby on Rails, PostgreSQL, Stripe, jQuery, MailGun
+              Tech used:  React, Javascript, TypeScript , Node JS, Express JS, MonogoDB, Tailwind, Axios
             </h3>
             <p className={"portfolio-description"}>
-              A full-stack web application that includes e-commerce, contact
-              forms, user accounts and profiles.
+              A Full-Stack web application the allows you to send and receive messages, pictures, videos, and files, and is supported with a password of your choice to guarantee saftey, and Privacy of you data.
             </p>
             <a
               target="_blank" rel="noreferrer"
@@ -94,7 +95,7 @@ const Projects = () => {
             </a>
             <a
               target="_blank" rel="noreferrer"
-              href="https://github.com/Aminriyad"
+              href="https://github.com/Aminriyad/Chatting-app"
               className={"button flex-button button-small portfolio-button"}
             >
               Code
