@@ -39,7 +39,70 @@ const Projects = () => {
         pagination={{ clickable: true, dynamicBullets: true }}
     >
 
-{/* Recipedia */}
+{/* Full-Stack-Messaging-App */}
+<SwiperSlide>
+    <div className={"portfolio-content grid swiper-slide"} >
+          <img src={chat} alt="" className={"portfolio-img"} style={{height:"13rem",width:"35rem"}}/>
+
+          <div className={"portfolio-data"}>
+            <h3 className={"portfolio-title"}>Full-Stack Messaging App</h3>
+            <h3 className={"portfolio-subtitle"}>
+              Tech used:  React, Javascript, TypeScript , Node JS, Express JS, MonogoDB, Tailwind, Axios
+            </h3>
+            <p className={"portfolio-description"}>
+              A Full-Stack web application the allows you to send and receive messages, pictures, videos, and files, and is supported with a password of your choice to guarantee saftey, and Privacy of you data.
+            </p>
+            <a
+              target="_blank" rel="noreferrer"
+              href="https://dev-matcher.herokuapp.com/"
+              className={"button flex-button button-small portfolio-button"}
+            >
+              Demo
+              <i className={"uil uil-arrow-right icon-button"}></i>
+            </a>
+            <a
+              target="_blank" rel="noreferrer"
+              href="https://github.com/Aminriyad/Full-Stack-Messaging-App"
+              className={"button flex-button button-small portfolio-button"}
+            >
+              Code
+              <i className={"uil uil-code-branch icon-button"}></i>
+            </a>
+          </div>
+        </div></SwiperSlide>
+{/* Stock Tracker */}
+<SwiperSlide>
+    <div className={"portfolio-content grid swiper-slide"}>
+          <img src={STP1} alt="" className={"portfolio-img" }/>
+          <div className={"portfolio-data"}>
+            <h3 className={"portfolio-title"}>Stock Market Tracker & Chart Application</h3>
+            <h3 className={"portfolio-subtitle"}>
+              Tech used: React JS, TypeScript, API, Tailwind
+            </h3>
+            <p className={"portfolio-description"}>
+              
+A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS to display real-time stock prices and visually track their performance through interactive charts, using data fetched from APIs.
+            </p>
+            <a
+              target="_blank" rel="noreferrer"
+              href="https://railsblogg.herokuapp.com/"
+              className={"button flex-button button-small portfolio-button"}
+            >
+              Demo
+              <i className={"uil uil-arrow-right icon-button"}></i>
+            </a>
+            <a
+              target="_blank" rel="noreferrer"
+              href="https://github.com/Aminriyad/Stock-Market-Tracker"
+              className={"button flex-button button-small portfolio-button"}
+            >
+              Code
+              <i className={"uil uil-code-branch icon-button"}></i>
+            </a>
+          </div>
+        </div></SwiperSlide>
+
+{/* MR.budget */}
 <SwiperSlide>
     <div className={"swiper-wrapper"}>
         <div className={"portfolio-content grid swiper-slide"} >
@@ -74,69 +137,8 @@ const Projects = () => {
 
           </div>
           </div></SwiperSlide>
-{/* DevMatch */}
-<SwiperSlide>
-    <div className={"portfolio-content grid swiper-slide"} >
-          <img src={chat} alt="" className={"portfolio-img"} style={{height:"13rem",width:"35rem"}}/>
 
-          <div className={"portfolio-data"}>
-            <h3 className={"portfolio-title"}>Full-Stack Messaging App</h3>
-            <h3 className={"portfolio-subtitle"}>
-              Tech used:  React, Javascript, TypeScript , Node JS, Express JS, MonogoDB, Tailwind, Axios
-            </h3>
-            <p className={"portfolio-description"}>
-              A Full-Stack web application the allows you to send and receive messages, pictures, videos, and files, and is supported with a password of your choice to guarantee saftey, and Privacy of you data.
-            </p>
-            <a
-              target="_blank" rel="noreferrer"
-              href="https://dev-matcher.herokuapp.com/"
-              className={"button flex-button button-small portfolio-button"}
-            >
-              Demo
-              <i className={"uil uil-arrow-right icon-button"}></i>
-            </a>
-            <a
-              target="_blank" rel="noreferrer"
-              href="https://github.com/Aminriyad/Chatting-app"
-              className={"button flex-button button-small portfolio-button"}
-            >
-              Code
-              <i className={"uil uil-code-branch icon-button"}></i>
-            </a>
-          </div>
-        </div></SwiperSlide>
-{/* Blog */}
-<SwiperSlide>
-    <div className={"portfolio-content grid swiper-slide"}>
-          <img src={STP1} alt="" className={"portfolio-img" }/>
-          <div className={"portfolio-data"}>
-            <h3 className={"portfolio-title"}>Stock Market Tracker & Chart Application</h3>
-            <h3 className={"portfolio-subtitle"}>
-              Tech used: React JS, TypeScript, API, Tailwind
-            </h3>
-            <p className={"portfolio-description"}>
-              
-A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS to display real-time stock prices and visually track their performance through interactive charts, using data fetched from APIs.
-            </p>
-            <a
-              target="_blank" rel="noreferrer"
-              href="https://railsblogg.herokuapp.com/"
-              className={"button flex-button button-small portfolio-button"}
-            >
-              Demo
-              <i className={"uil uil-arrow-right icon-button"}></i>
-            </a>
-            <a
-              target="_blank" rel="noreferrer"
-              href="https://github.com/Aminriyad/Stock-Market-Tracker"
-              className={"button flex-button button-small portfolio-button"}
-            >
-              Code
-              <i className={"uil uil-code-branch icon-button"}></i>
-            </a>
-          </div>
-        </div></SwiperSlide>
-{/* Rush */}
+{/* Tetris */}
 <SwiperSlide>
     <div className={"portfolio-content grid swiper-slide"}>
           <img src={Tetris} alt="" className={"portfolio-img" }/>
@@ -168,7 +170,7 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
             </a>
           </div>
         </div></SwiperSlide>
-{/* Interphase (12 hour Hackathon project) */}
+{/* Blog */}
 <SwiperSlide>
     <div className={"portfolio-content grid swiper-slide"}>
           <img
