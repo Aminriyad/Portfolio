@@ -259,6 +259,8 @@ img {
 
 .active-link {
   color: var(--first-color);
+  color: var(--title-color);
+
 }
 
 .scroll-header {

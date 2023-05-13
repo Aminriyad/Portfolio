@@ -1,13 +1,22 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xzbqbjeo");
   const center = {marign: '0 auto',display: 'flex',justifyContent: 'center',padding: '150px 0'}
 
-
   if (state.succeeded) {
-      return (<p style={center}>Thanks Mate!</p>)
+    const v = document.getElementsByClassName("contact-form")[0]
+    // v.submit();
+    // v.reset()
+    toast.success('Your message has been sent.', {
+      toastId: 'success1',
+  })
+    // toast.success("Your message has been sent.")
+    v.scrollIntoView()
+    // return false;
+
   }
   return (
     <section className={"contact section" } id={"Contact"}>

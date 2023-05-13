@@ -12,7 +12,7 @@ return (
         </div>
         <ul className={"footer-links"}>
             <li>
-            <a href="#Projects" className={"footer-link"}>Portfolio</a>
+            <a href="#Projects" className={"footer-link"}>Projects</a>
             </li>
             <li>
               <a href="#Contact" className={"footer-link"}>Contact</a>
@@ -20,7 +20,7 @@ return (
           </ul>
           <div className={"footer-socials"}>
             <a
-              href="https://www.linkedin.com/in/mike-r-0b9a47229/"
+              href="https://www.linkedin.com/"
               rel="noreferrer"
               target="_blank"
               className={"footer-social"}

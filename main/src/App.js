@@ -3,6 +3,9 @@ import Header from "./Header";
 import Main from "./main";
 import Projects from "./Project";
 import Contact from "./Contact";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+
 
 const App = () => {
 
@@ -19,6 +22,7 @@ const App = () => {
     {/* <a href="/#" class="scroll-to-top" id="scroll-up">
       <i class="uil uil-arrow-up scroll-to-top-icon"></i>
     </a> */}
+    <ToastContainer/>
 </div>
 );
 }

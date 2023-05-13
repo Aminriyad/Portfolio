@@ -73,8 +73,8 @@ const Header = () => {
           {/* Theme Changer */}
           <div className={"nav-buttons"}>
              {/* <i className={"uil uil-moon change-theme uil-sun"} id="theme-button"></i> */}
-            <Icon onClick={aminer} className={"uil "} style={{position: "absolute"}}icon="ph:moon-bold" color="#5757e0" id="theme-button1"/>
-            <Icon onClick={aminer} className={"uil"} style={{visibility:"hidden"}}icon="ph:sun" color="#5757e0" id="theme-button2"/>
+            {/* <Icon onClick={aminer} className={"uil "} style={{position: "absolute"}}icon="ph:moon-bold" color="#5757e0" id="theme-button1"/>
+            <Icon onClick={aminer} className={"uil"} style={{visibility:"hidden"}}icon="ph:sun" color="#5757e0" id="theme-button2"/> */}
             {/* <div className={"nav-toggle" }id="nav-toggle">
               <i className={"uil uil-apps"}></i>
             </div> */}

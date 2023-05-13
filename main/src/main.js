@@ -6,7 +6,7 @@ const Main = () => {
           <div className={"home-content grid"}>
             <div className={"home-social"}>
             <a
-                href="https://www.linkedin.com/in/mike-r-0b9a47229/"
+                href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noreferrer"
                 className={"social-icon"}
