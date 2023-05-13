@@ -5,6 +5,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xzbqbjeo");
   const center = {marign: '0 auto',display: 'flex',justifyContent: 'center',padding: '150px 0'}
 
+
   if (state.succeeded) {
       return (<p style={center}>Thanks Mate!</p>)
   }

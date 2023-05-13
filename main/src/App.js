@@ -4,7 +4,6 @@ import Main from "./main";
 import Projects from "./Project";
 import Contact from "./Contact";
 
-
 const App = () => {
 
     return (
@@ -17,7 +16,6 @@ const App = () => {
     <Contact/>
     </main>
     <Footer/>
-
     {/* <a href="/#" class="scroll-to-top" id="scroll-up">
       <i class="uil uil-arrow-up scroll-to-top-icon"></i>
     </a> */}

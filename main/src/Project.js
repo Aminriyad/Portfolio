@@ -1,7 +1,10 @@
+import random from "./img/random.png"
 import Pic  from "./Black.png"
 import HBA from "./img/HBA.png"
 import chat from "./img/chat.png"
-
+import STP1 from "./img/STP1.png"
+import STP2 from "./img/STP2.png"
+import Tetris from "./img/Tetris.png"
 //    dont forget to add this margin-bottom: 3rem;
 // import SwiperCore, {
 //   Pagination,
@@ -40,7 +43,6 @@ const Projects = () => {
 <SwiperSlide>
     <div className={"swiper-wrapper"}>
         <div className={"portfolio-content grid swiper-slide"} >
-          <img className={"portfolio-img"}src={HBA} alt=""/>
           <img className={"portfolio-img"}src={HBA} alt=""/>
 
           <div className={"portfolio-data"}>
@@ -106,16 +108,15 @@ const Projects = () => {
 {/* Blog */}
 <SwiperSlide>
     <div className={"portfolio-content grid swiper-slide"}>
-          <img src={Pic} alt="" className={"portfolio-img" }/>
-
+          <img src={STP1} alt="" className={"portfolio-img" }/>
           <div className={"portfolio-data"}>
-            <h3 className={"portfolio-title"}>Blog</h3>
+            <h3 className={"portfolio-title"}>Stock Market Tracker & Chart Application</h3>
             <h3 className={"portfolio-subtitle"}>
-              Tech used: Ruby on Rails, AWS Cloud9 IDE
+              Tech used: React JS, TypeScript, API, Tailwind
             </h3>
             <p className={"portfolio-description"}>
-              A software-as-a-service blogging platform that incorporates
-              search functionality, an admin panel and more.
+              
+A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS to display real-time stock prices and visually track their performance through interactive charts, using data fetched from APIs.
             </p>
             <a
               target="_blank" rel="noreferrer"
@@ -138,22 +139,29 @@ const Projects = () => {
 {/* Rush */}
 <SwiperSlide>
     <div className={"portfolio-content grid swiper-slide"}>
-          <img src={Pic} alt="" className={"portfolio-img" }/>
+          <img src={Tetris} alt="" className={"portfolio-img" }/>
           
           {/* Rush */}
           <div className={"portfolio-data"}> 
-            <h3 className={"portfolio-title"}>Rush</h3>
+            <h3 className={"portfolio-title"}>Tetris Game</h3>
             <h3 className={"portfolio-subtitle"}>
-              Tech used: Python, Tkinter GUI module
+              Tech used: HTML5, CSS3, Javascript
             </h3>
             <p className={"portfolio-description"}>
-              A game where the aim is to collect as many coins as possible
-              before the time runs out or you get caught by a guard.
+            A captivating web app that brings the classic Tetris game to life, created with HTML, CSS, and JavaScript. Enjoy hours of addictive gameplay as you strategically arrange falling blocks to clear lines.
             </p>
+            <a
+              target="_blank" rel="noreferrer"
+              href="https://github.com/Aminriyad/Tetris"
+              className={"button flex-button button-small portfolio-button"}
+            >
+              Demo
+              <i className={"uil uil-arrow-right icon-button"}></i>
+            </a>
             <a
             rel="noreferrer"
               target="_blank"
-              href="https://github.com/AbumattarSA/Rush"
+              href="https://github.com/Aminriyad/Tetris"
               className={"button flex-button button-small portfolio-button"}>
               Code
               <i className={"uil uil-code-branch icon-button"}></i>
@@ -164,25 +172,24 @@ const Projects = () => {
 <SwiperSlide>
     <div className={"portfolio-content grid swiper-slide"}>
           <img
-            src={Pic}
+            src={random}
             alt=""
             className={"portfolio-img"}
           />
 
           <div className={"portfolio-data"}>
             <h3 className={"portfolio-title"}>
-              Interphase (12 hour Hackathon project)
+              Personal Blog
             </h3>
             <h3 className={"portfolio-subtitle"}>
-              Tech used: HTML, CSS, JavaScript, Markdown
+              Tech used: React js, HTML, CSS
             </h3>
             <p className={"portfolio-description"}>
-              A project for individuals who aren't tech savvy but are
-              enthusiastic to get started with programming
+            An engaging blog website powered by React.js and JSON Server, allowing users to read and share articles on various topics. Leveraging custom functions, this platform offers a seamless user experience 
             </p>
             <a
               target="_blank" rel="noreferrer"
-              href="https://thecodingbridge.github.io/Interphase/"
+              href="https://github.com/Aminriyad/Local-Blogger"
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
@@ -190,7 +197,7 @@ const Projects = () => {
             </a>
             <a
               target="_blank" rel="noreferrer"
-              href="https://github.com/TheCodingBridge/Interphase"
+              href="https://github.com/Aminriyad/Local-Blogger"
               className={"button flex-button button-small portfolio-button"}
             >
               Code
