@@ -128,7 +128,7 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
             </a>
             <a
               target="_blank" rel="noreferrer"
-              href="https://github.com/AbumattarSA/Rails_Blog"
+              href="https://github.com/Aminriyad/Stock-Market-Tracker"
               className={"button flex-button button-small portfolio-button"}
             >
               Code
