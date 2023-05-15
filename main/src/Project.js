@@ -54,7 +54,7 @@ const Projects = () => {
             </p>
             <a
               target="_blank" rel="noreferrer"
-              href="https://dev-matcher.herokuapp.com/"
+              href="https://aminriyad-fullstack-messaging-app.netlify.app/"
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
@@ -85,7 +85,7 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
             </p>
             <a
               target="_blank" rel="noreferrer"
-              href="https://railsblogg.herokuapp.com/"
+              href="https://aminriyad-stock-market-tracker.netlify.app/"
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
@@ -118,7 +118,7 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
             </p>
             <a
               target="_blank" rel="noreferrer"
-              href="https://github.com/Aminriyad/Mr.Budget"
+              href="https://aminriyad-budgeting-application.netlify.app/"
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
@@ -154,7 +154,7 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
             </p>
             <a
               target="_blank" rel="noreferrer"
-              href="https://github.com/Aminriyad/Tetris"
+              href="https://aminriyad-tetris-game.netlify.app/"
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
@@ -191,7 +191,7 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
             </p>
             <a
               target="_blank" rel="noreferrer"
-              href="https://github.com/Aminriyad/Local-Blogger"
+              href="https://aminriyad-local-blogger.netlify.app/"
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
