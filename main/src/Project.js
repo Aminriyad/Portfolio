@@ -52,14 +52,14 @@ const Projects = () => {
             <p className={"portfolio-description"}>
               A Full-Stack web application the allows you to send and receive messages, pictures, videos, and files, and is supported with a password of your choice to guarantee saftey, and Privacy of you data.
             </p>
-            <a
+{/*             <a
               target="_blank" rel="noreferrer"
               href="https://aminriyad-fullstack-messaging-app.netlify.app/"
               className={"button flex-button button-small portfolio-button"}
             >
-              Demo
+              YT on it
               <i className={"uil uil-arrow-right icon-button"}></i>
-            </a>
+            </a> */}
             <a
               target="_blank" rel="noreferrer"
               href="https://github.com/Aminriyad/Full-Stack-Messaging-App"
@@ -187,8 +187,11 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
               Tech used: React js, HTML, CSS
             </h3>
             <p className={"portfolio-description"}>
-            An engaging blog website powered by React.js and JSON Server, allowing users to read and share articles on various topics. Leveraging custom functions, this platform offers a seamless user experience 
+            An engaging blog website powered by React.js and JSON Server,
+            allowing users to read and share articles on various topics.
+            Note :: run a local server by running "npx json-server --watch amin\src\data\db.json --port 8000"
             </p>
+
             <a
               target="_blank" rel="noreferrer"
               href="https://aminriyad-local-blogger.netlify.app/"
