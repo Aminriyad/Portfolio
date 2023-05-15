@@ -19,14 +19,14 @@ return (
             </li>
           </ul>
           <div className={"footer-socials"}>
-            <a
+{/*             <a
               href="https://www.linkedin.com/"
               rel="noreferrer"
               target="_blank"
               className={"footer-social"}
             >
               <Icon icon="uil:linkedin-alt" color="white" />
-            </a>
+            </a> */}
             <a
               href="https://github.com/Aminriyad"
               rel="noreferrer"

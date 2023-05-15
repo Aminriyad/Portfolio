@@ -5,14 +5,14 @@ const Main = () => {
         <div className={"home-container container grid"}>
           <div className={"home-content grid"}>
             <div className={"home-social"}>
-            <a
+{/*             <a
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noreferrer"
                 className={"social-icon"}
               >
               <Icon icon="uil:linkedin-alt" color="#5757e0" />
-              </a>
+              </a> */}
               <a
                 href="https://github.com/Aminriyad"
                 target="_blank"
