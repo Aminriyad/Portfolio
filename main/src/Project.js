@@ -18,6 +18,7 @@ import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
 import SwiperCore, { Navigation, Pagination, EffectFade } from "swiper"; // added navigation and replaced EffectCoverflow with EffectFade
+import { Icon } from "@iconify/react"
 SwiperCore.use([Navigation, Pagination, EffectFade]); // configure the new modules as needed
 SwiperCore.use([Pagination]);
 
@@ -66,7 +67,10 @@ const Projects = () => {
               className={"button flex-button button-small portfolio-button"}
             >
               Code
-              <i className={"uil uil-code-branch icon-button"}></i>
+              {/* <Icon className={"uil uil-code-branch icon-button"} icon="material-symbols:arrow-right-alt-rounded" /> */}
+              <Icon className={"uil uil-arrow-right icon-button"}icon="mdi:source-branch" />
+
+              {/* <i className={"uil uil-code-branch icon-button"}></i> */}
             </a>
           </div>
         </div></SwiperSlide>
@@ -89,7 +93,8 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
-              <i className={"uil uil-arrow-right icon-button"}></i>
+            <Icon className={"uil uil-code-branch icon-button"} icon="material-symbols:arrow-right-alt-rounded" />
+              {/* <i className={"uil uil-arrow-right icon-button"}></i> */}
             </a>
             <a
               target="_blank" rel="noreferrer"
@@ -97,7 +102,8 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
               className={"button flex-button button-small portfolio-button"}
             >
               Code
-              <i className={"uil uil-code-branch icon-button"}></i>
+              <Icon className={"uil uil-arrow-right icon-button"}icon="mdi:source-branch" />
+              {/* <i className={"uil uil-code-branch icon-button"}></i> */}
             </a>
           </div>
         </div></SwiperSlide>
@@ -122,7 +128,8 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
-              <i className={"uil uil-arrow-right icon-button"}></i>
+            <Icon className={"uil uil-code-branch icon-button"} icon="material-symbols:arrow-right-alt-rounded" />
+              {/* <i className={"uil uil-arrow-right icon-button"}></i> */}
             </a>
             <a
             rel="noreferrer"
@@ -131,7 +138,8 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
               className={"button flex-button button-small portfolio-button"}
             >
               Code
-              <i className={"uil uil-code-branch icon-button"}></i>
+              <Icon className={"uil uil-arrow-right icon-button"}icon="mdi:source-branch" />
+              {/* <i className={"uil uil-code-branch icon-button"}></i> */}
               </a>
             </div>
 
@@ -158,7 +166,8 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
-              <i className={"uil uil-arrow-right icon-button"}></i>
+            <Icon className={"uil uil-code-branch icon-button"} icon="material-symbols:arrow-right-alt-rounded" />
+              {/* <i className={"uil uil-arrow-right icon-button"}></i> */}
             </a>
             <a
             rel="noreferrer"
@@ -166,7 +175,8 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
               href="https://github.com/Aminriyad/Tetris"
               className={"button flex-button button-small portfolio-button"}>
               Code
-              <i className={"uil uil-code-branch icon-button"}></i>
+              <Icon className={"uil uil-arrow-right icon-button"}icon="mdi:source-branch" />
+              {/* <i className={"uil uil-code-branch icon-button"}></i> */}
             </a>
           </div>
         </div></SwiperSlide>
@@ -198,7 +208,8 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
               className={"button flex-button button-small portfolio-button"}
             >
               Demo
-              <i className={"uil uil-arrow-right icon-button"}></i>
+            <Icon className={"uil uil-code-branch icon-button"} icon="material-symbols:arrow-right-alt-rounded" />
+              {/* <i className={"uil uil-arrow-right icon-button"}></i> */}
             </a>
             <a
               target="_blank" rel="noreferrer"
@@ -206,10 +217,12 @@ A sleek and intuitive web app leveraging React.js, TypeScript, and Tailwind CSS 
               className={"button flex-button button-small portfolio-button"}
             >
               Code
-              <i className={"uil uil-code-branch icon-button"}></i>
+              <Icon className={"uil uil-arrow-right icon-button"}icon="mdi:source-branch" />
+              {/* <i className={"uil uil-code-branch icon-button"}></i> */}
             </a>
           </div>
-        </div></SwiperSlide>
+        </div>
+        </SwiperSlide>
 
 
 </Swiper>
