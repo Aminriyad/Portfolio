@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { toast } from 'react-toastify';
+import { Icon } from '@iconify/react';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xzbqbjeo");
@@ -67,7 +68,8 @@ const Contact = () => {
           <div>
             <button type="submit" className={"button flex-button"} disabled={state.submitting}>
               Send message
-              <i className={"uil uil-message icon-button"}></i>
+              {/* <i className={"uil uil-message icon-button"}></i> */}
+              <Icon icon="uil:message" className={"icon-button"}/>
             </button>
           </div>
         </div>
